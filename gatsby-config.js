@@ -5,6 +5,8 @@ module.exports = {
       options: {
         pathToConfigModule: `typography.js`
       }
-    }
+    },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-postcss`
   ]
 };
