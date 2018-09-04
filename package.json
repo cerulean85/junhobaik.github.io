@@ -10,6 +10,7 @@
   "dependencies": {
     "gatsby": "next",
     "gatsby-plugin-postcss": "^2.0.0-rc.1",
+    "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^2.0.0-rc.1",
     "gatsby-plugin-typography": "^1.7.19",
     "node-sass": "^4.9.3",
@@ -19,6 +20,7 @@
     "postcss-reporter": "^6.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
     "typography": "^0.16.17"
   },
