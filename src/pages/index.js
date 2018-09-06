@@ -10,7 +10,7 @@ class index extends Component {
       <>
         <Helmet title={this.props.data.site.siteMetadata.title} />
         <Layout>
-          
+          <div>index</div>
         </Layout>
       </>
     );
