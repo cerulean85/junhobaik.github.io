@@ -2,13 +2,16 @@ import React, { Component } from "react";
 import "./index.scss";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
+import Layout from "../components/Layout";
 
 class index extends Component {
   render() {
     return (
       <>
         <Helmet title={this.props.data.site.siteMetadata.title} />
-        <div id="index">index</div>
+        <Layout>
+          
+        </Layout>
       </>
     );
   }
